@@ -1,0 +1,28 @@
+{
+  "name": "build-your-own-react",
+  "version": "1.0.0",
+  "description": "button.jsx --> html + js\r     button.css --> css\r     app.jsx --> html + js\r     index.css -> --> css\r     main.jsx  --> html + js\r     app.css --> --> css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarangkale66/kodr-5-BuildYourOwnReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sarangkale66/kodr-5-BuildYourOwnReact/issues"
+  },
+  "homepage": "https://github.com/Sarangkale66/kodr-5-BuildYourOwnReact#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "concurrently": "^10.0.6",
+    "esbuild": "^0.28.2",
+    "serve": "^14.2.6",
+    "typescript": "^7.0.2"
+  }
+}

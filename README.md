@@ -33,7 +33,7 @@
             function App() {
                 // upar js likha sakte joo  // kaha rakhenge
 
-                return <HTMLCOMPONENT> // kaha rakhenge
+                return <HTMLCOMPONENT> || null // kaha rakhenge
 
                 // niche js likha sakte joo // kaha rakhenge
             }
@@ -64,7 +64,7 @@ class Button extends Component {
         console.log("hello world")
 
         return `<button class="btn">
-        </button>`
+        </button>` <---- string
     }
 
     style() { // return css
@@ -92,9 +92,10 @@ class Card extends Component {
     1. jab bhi component bange tab main un components ko Component class se extend kar dunga
     2. KISS ---> keep it simple stupid
 
+# Setup Entire Development Server
 ### buddler se start karo
     browser-sync ---> window reload (file mein changes karto ho) --> serve
-    tailwind,
-    tsc ts --> js
+    ✅ tailwind,
+    tsc ts --> js ---> (.ts ---> .js)
     esbuild ---> minify
     concurrent: 

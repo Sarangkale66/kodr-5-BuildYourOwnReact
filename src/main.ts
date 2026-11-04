@@ -6,12 +6,8 @@ if(!root) {
 }
 
 function execute() {
-    const btn = new Button();
-    btn.mount(root); // render / print
-    btn.unmount();
-    btn.mount(root); // render / print
-    btn.unmount(); // remove
-    btn.mount(root);
+    const btn1 = new Button();
+    btn1.mount(root); // render / print
 }
 
 execute();
